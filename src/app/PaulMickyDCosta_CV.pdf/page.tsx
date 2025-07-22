@@ -117,7 +117,7 @@ export default function PDFResumePage() {
       });
       const data = await res.json();
       setOutput(data.output);
-    } catch (_err) {
+    } catch {
       setError("Failed to run code. Please try again.");
     } finally {
       setLoading(false);

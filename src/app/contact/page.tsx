@@ -7,7 +7,7 @@ export default function ContactPage() {
   const { register, handleSubmit, reset, formState: { errors, isSubmitSuccessful } } = useForm();
   const [submitted, setSubmitted] = useState(false);
 
-  const onSubmit = (_data: Record<string, string>) => {
+  const onSubmit = () => {
     setSubmitted(true);
     reset();
   };

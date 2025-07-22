@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 
-export async function POST(_req: NextRequest) {
+export async function POST() {
   // Instead of executing, return a formatted output of the CV data
   const output = `
 Paul Micky D Costa

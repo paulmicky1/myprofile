@@ -6,16 +6,6 @@ import Navbar from "../components/Navbar";
 import ThemeProvider from "../components/ThemeProvider";
 import DynamicNetworkBG from "../components/DynamicNetworkBG";
 
-const _geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const _geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
 export const metadata: Metadata = {
   title: "Paul Micky D Costa | Software Engineer & Data Scientist",
   description: "Portfolio of Paul Micky D Costa - Full-stack Developer, Data Scientist, ML Enthusiast.",
