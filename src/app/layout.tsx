@@ -6,12 +6,12 @@ import Navbar from "../components/Navbar";
 import ThemeProvider from "../components/ThemeProvider";
 import DynamicNetworkBG from "../components/DynamicNetworkBG";
 
-const geistSans = Geist({
+const _geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
+const _geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });

@@ -4,8 +4,8 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 
 export default function DynamicNetworkBG() {
-  const particlesInit = useCallback(async (engine: any) => {
-    await loadFull(engine);
+  const particlesInit = useCallback(async (engine: unknown) => {
+    await loadFull(engine as any);
   }, []);
 
   return (

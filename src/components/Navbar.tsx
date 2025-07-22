@@ -13,7 +13,7 @@ const navLinks = [
 
 export default function Navbar() {
   const pathname = usePathname();
-  const { theme, setTheme, resolvedTheme } = useTheme();
+  const { setTheme, resolvedTheme } = useTheme();
   return (
     <nav className="w-full flex items-center justify-between py-4 px-6 bg-white/80 dark:bg-gray-950/80 backdrop-blur border-b border-gray-200 dark:border-gray-800 sticky top-0 z-50">
       <div className="font-bold text-lg text-blue-700 dark:text-blue-400">Paul Micky D Costa</div>
