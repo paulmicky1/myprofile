@@ -36,8 +36,11 @@ export default function Home() {
             Passionate about building scalable full-stack applications and leveraging machine learning to solve real-world problems. Experienced in Python, C++, JavaScript, and modern frameworks. Seeking opportunities at top tech companies to make an impact.
           </p>
           <div className="flex flex-wrap gap-4 justify-center mt-6">
-            <Link href="/PaulMickyDCosta_CV.pdf" target="_blank" rel="noopener noreferrer">
-              <button className="px-6 py-2 rounded-lg bg-blue-600 text-white font-semibold shadow hover:bg-blue-700 transition focus:outline-none focus:ring-2 focus:ring-blue-400 dark:focus:ring-blue-800">View CV</button>
+            <Link href="/Paul_Micky_D_Costa_CV_EN.pdf" target="_blank" rel="noopener noreferrer">
+              <button className="px-6 py-2 rounded-lg bg-blue-600 text-white font-semibold shadow hover:bg-blue-700 transition focus:outline-none focus:ring-2 focus:ring-blue-400 dark:focus:ring-blue-800">CV (EN)</button>
+            </Link>
+            <Link href="/Paul_Micky_D_Costa_CV_FR.pdf" target="_blank" rel="noopener noreferrer">
+              <button className="px-6 py-2 rounded-lg bg-indigo-600 text-white font-semibold shadow hover:bg-indigo-700 transition focus:outline-none focus:ring-2 focus:ring-indigo-400 dark:focus:ring-indigo-800">CV (FR)</button>
             </Link>
             <Link href="/contact">
               <button className="px-6 py-2 rounded-lg bg-gray-200 dark:bg-gray-800 text-gray-900 dark:text-gray-100 font-semibold shadow hover:bg-gray-300 dark:hover:bg-gray-700 transition focus:outline-none focus:ring-2 focus:ring-blue-400 dark:focus:ring-blue-800">Contact Me</button>
